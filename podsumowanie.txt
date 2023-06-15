@@ -1,0 +1,18 @@
+Podsumowując, na podstawie przeprowadzonych pomiarów czasu wykonania algorytmów sortujących, można wyciągnąć następujące wnioski:
+
+Heapsort wykazał się dobrymi osiągami pod względem czasu wykonania.
+Zarówno dla danych losowych, posortowanych jak i odwróconych, algorytm ten radził sobie skutecznie i szybko.
+Otrzymane czasy wykonania były zbliżone i zgodne z oczekiwaniami.
+
+Quicksort, w wersji Lomuto z zajęć, również był skuteczny dla danych losowych oraz odwróconych.
+Jednakże, gdy dane wejściowe były już posortowane, wystąpiło znaczne odchylenie czasu wykonania,
+które było zauważalnie dłuższe niż w przypadku innych algorytmów.
+Wnioskiem jest, że Quicksort może być mniej wydajny dla posortowanych danych,
+co należy wziąć pod uwagę przy wyborze tego algorytmu.
+
+Algorytm Radixsort (LSD) również radził sobie dobrze dla różnych typów danych.
+Zarówno dla danych losowych, posortowanych jak i odwróconych, uzyskano zbliżone czasy wykonania.
+Algorytm ten był stabilny i efektywny dla wszystkich przypadków.
+
+Podsumowując, najlepsze wyniki pod względem czasu wykonania osiągnął Heapsort, który zachowywał się spójnie dla różnych typów danych. Natomiast Quicksort, chociaż skuteczny dla danych losowych i odwróconych, wymaga uwagi i optymalizacji dla posortowanych danych, aby zapobiec znacznemu wydłużeniu czasu wykonania. A
+lgorytm Radixsort również jest dobrym wyborem, zapewniając stabilne i efektywne sortowanie dla różnych typów danych.
