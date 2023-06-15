@@ -1,0 +1,28 @@
+Radix sort to algorytm sortowania, który działa w czasie liniowym, sortując elementy na podstawie ich cyfr (liczb jednostkowych).
+Algorytm ten działa poprzez sortowanie elementów na podstawie kolejnych cyfr, zaczynając od najmniej znaczącej cyfry i przechodząc do najbardziej znaczącej cyfry.
+Idea radix sort polega na wykonaniu sortowania przez zliczanie dla każdej cyfry,
+zaczynając od najmniej znaczącej cyfry i przechodząc do najbardziej znaczącej cyfry.
+
+Oto krok po kroku, jak działa radix sort:
+
+Rozpoczynamy od najmniej znaczącej cyfry (najbardziej prawej cyfry) elementów w tablicy.
+Sortujemy elementy na podstawie tej cyfry, używając stabilnego algorytmu sortowania, takiego jak sortowanie przez zliczanie.
+Ten krok zapewnia, że elementy z tą samą cyfrą pozostają w tej samej względnej kolejności.
+
+Po posortowaniu według najmniej znaczącej cyfry przechodzimy do kolejnej cyfry w lewo (następna cyfra znacząca).
+Ponownie sortujemy elementy na podstawie tej cyfry, używając sortowania przez zliczanie.
+Ten krok dalszo ulepsza sortowanie, uwzględniając następną cyfrę znaczącą.
+
+Powtarzamy krok 2 dla wszystkich cyfr, aż do osiągnięcia najbardziej znaczącej cyfry.
+Sortowanie na podstawie najbardziej znaczącej cyfry kończy proces sortowania.
+
+Poprzez iteracyjne sortowanie elementów na podstawie kolejnych cyfr,
+radix sort osiąga posortowany porządek dla całej tablicy.
+
+Ważnym punktem do zauważenia jest to, że radix sort polega na stabilnym algorytmie sortowania,
+takim jak sortowanie przez zliczanie, aby sortować elementy na podstawie każdej cyfry.
+Stabilność zapewnia, że elementy z tą samą cyfrą zachowają swoją względną kolejność w posortowanej końcowej tablicy.
+
+Radix sort ma złożoność czasową O(d * (n + k)), gdzie d to liczba cyfr w największym elemencie,
+n to liczba elementów w tablicy,
+a k to liczba możliwych wartości dla każdej cyfry (zazwyczaj k wynosi 10 dla cyfr dziesiętnych).
